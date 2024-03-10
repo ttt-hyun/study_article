@@ -1,13 +1,11 @@
 ---
 title : sql 기본 문법 정리
 description : mysql의 기본 문법 정리
+date : 2024-01-04
+category : mysql, database, sql, backend
 ---
 
-# sql 기본 문법 정리
-
-<br />
-
-## 🟩 SELECT
+## ✅ SELECT
 
 SELECT문은 조회할 데이터들을 지정하는 명령어다.
 ```sql
@@ -24,7 +22,7 @@ SELECT name, age FROM A_TABLE
 <br />
 <br />
 
-## 🟩 FROM
+## ✅ FROM
 
 FROM문은 조회할 테이블을 지정하는 명령어다.
 
@@ -48,7 +46,7 @@ SELECT * FROM A_TABLE
 <br />
 <br />
 
-## 🟩 WHERE
+## ✅ WHERE
 
 WHERE문은 조회할 내용에 조건을 걸어주는 명령어다.
 
@@ -122,7 +120,7 @@ SELECT * FROM A_TABLE
 <br />
 <br />
 
-## 🟩 ORDER BY
+## ✅ ORDER BY
 
 ORDER BY문은 데이터 정렬 순서를 관여한다.
 
@@ -145,7 +143,7 @@ SELECT * FROM A_TABLE
 <br />
 <br />
 
-## 🟩 GROUP BY 
+## ✅ GROUP BY 
 
 GROUP BY문은 공통된 컬럼 값을 그룹화한다.(보통 집계함수와 깉이 쓰임)
 
@@ -161,7 +159,7 @@ SELECT job, AVG(age) AS '직업별 평균나이' FROM A_TABLE
 <br />
 <br />
 
-## 🟩 LIMIT 
+## ✅ LIMIT 
 
 LIMIT문은 데이터를 조회하는 개수를 제한한다.
 
